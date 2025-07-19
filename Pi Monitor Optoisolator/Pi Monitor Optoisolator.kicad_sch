@@ -3,7 +3,15 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "c071114f-e83d-40e0-b50e-0576aa769c00")
-	(paper "A4")
+	(paper "USLetter")
+	(title_block
+		(title "Pi Monitor Optoisolator Schematic")
+		(date "2025-07-18")
+		(rev "v1.0")
+		(comment 1 "See details at https://github.com/jseyfert3/mcu-on-the-go")
+		(comment 2 "Released under GPL-3.0-or-later license")
+		(comment 3 "Copyright 2025 Jonathan Seyfert")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x07_Pin"
 			(pin_names
@@ -3637,10 +3645,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "1c37f6f0-a66a-4a29-84f2-e0e249ff086b")
+			(uuid "1c37f6f0-a66a-4a29-84f2-e0e249ff086c")
 		)
 		(pin "1"
-			(uuid "7b278a2a-9187-473d-80ae-d8f1b2561ece")
+			(uuid "7b278a2a-9187-473d-80ae-d8f1b2561ecf")
 		)
 		(instances
 			(project ""

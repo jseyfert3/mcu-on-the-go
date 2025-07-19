@@ -7,6 +7,14 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Pi Monitor Optoisolator PCB")
+		(date "2025-07-18")
+		(rev "v1.0")
+		(comment 1 "See details at https://github.com/jseyfert3/mcu-on-the-go")
+		(comment 2 "Released under GPL-3.0-or-later license")
+		(comment 3 "Copyright 2025 Jonathan Seyfert")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -192,7 +200,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b6f6e9dd-f698-45a3-9a97-cd452e9cb09e")
 		(sheetname "/")
-		(sheetfile "Pi_monitor.kicad_sch")
+		(sheetfile "Pi Monitor Optoisolator.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 7.08 -1.37)
@@ -396,7 +404,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/85ad16a4-00f3-4193-8db2-c8fce0f71d42")
 		(sheetname "/")
-		(sheetfile "Pi_monitor.kicad_sch")
+		(sheetfile "Pi Monitor Optoisolator.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.38 -1.38)
@@ -813,7 +821,7 @@
 		)
 		(path "/38b6957b-f4cb-467b-8552-11a41c37d56d")
 		(sheetname "/")
-		(sheetfile "Pi_monitor.kicad_sch")
+		(sheetfile "Pi Monitor Optoisolator.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -4.98 -3.4)
@@ -1334,7 +1342,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c487844f-ccb5-4882-841c-eea2a86091ce")
 		(sheetname "/")
-		(sheetfile "Pi_monitor.kicad_sch")
+		(sheetfile "Pi Monitor Optoisolator.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.38 -1.38)
@@ -1642,7 +1650,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9862c557-2955-4aca-a4d3-de6172aec7e4")
 		(sheetname "/")
-		(sheetfile "Pi_monitor.kicad_sch")
+		(sheetfile "Pi Monitor Optoisolator.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 7.08 -1.37)
@@ -1842,7 +1850,7 @@
 		)
 		(path "/24718d3c-c901-4fd2-a06c-5800adc9186a")
 		(sheetname "/")
-		(sheetfile "Pi_monitor.kicad_sch")
+		(sheetfile "Pi Monitor Optoisolator.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -4.98 -3.4)
@@ -2587,7 +2595,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d76e72ad-cc73-40a3-bb91-e38f2b424d91")
 		(sheetname "/")
-		(sheetfile "Pi_monitor.kicad_sch")
+		(sheetfile "Pi Monitor Optoisolator.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 7.08 -1.37)
@@ -2787,7 +2795,7 @@
 		)
 		(path "/99ffc8b2-7783-41cb-b4e4-47f4f1c1c511")
 		(sheetname "/")
-		(sheetfile "Pi_monitor.kicad_sch")
+		(sheetfile "Pi Monitor Optoisolator.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -4.98 -3.4)
@@ -3308,7 +3316,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/cb84938c-33bf-4f7a-939b-ca78498243a6")
 		(sheetname "/")
-		(sheetfile "Pi_monitor.kicad_sch")
+		(sheetfile "Pi Monitor Optoisolator.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 7.08 -1.37)
@@ -3623,7 +3631,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6639b515-582d-4600-b15c-9f3cb7d253d5")
 		(sheetname "/")
-		(sheetfile "Pi_monitor.kicad_sch")
+		(sheetfile "Pi Monitor Optoisolator.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 7.08 -1.37)
@@ -3826,7 +3834,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0a77b59c-ad76-405d-989f-4210bfa7a699")
 		(sheetname "/")
-		(sheetfile "Pi_monitor.kicad_sch")
+		(sheetfile "Pi Monitor Optoisolator.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 7.08 -1.37)
@@ -3985,14 +3993,14 @@
 		(layer "Edge.Cuts")
 		(uuid "a4f77b2f-0999-4340-83b1-477e2015f633")
 	)
-	(gr_text "Pi Monitor Optoisolator Board\nv1.0\n\ngithub.com/jseyfert3/"
-		(at 76.29 78.21 0)
+	(gr_text "Pi Monitor Optoisolator PCB\nv1.0\n\nPart of mcu-on-the-go project\nhttps://github.com/jseyfert3/mcu-on-the-go"
+		(at 84.74 79.01 0)
 		(layer "B.SilkS")
 		(uuid "a306a6e6-36f2-494f-b118-3f5afa1b2402")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.127)
 			)
 			(justify left bottom mirror)
 		)
