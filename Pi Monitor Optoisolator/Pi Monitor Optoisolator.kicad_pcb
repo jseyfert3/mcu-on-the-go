@@ -784,7 +784,7 @@
 				)
 			)
 		)
-		(property "Value" "WL-OCPT_SERIES_827"
+		(property "Value" "140827181010"
 			(at 0 7.365 0)
 			(layer "F.Fab")
 			(uuid "9d834306-6239-4451-9d07-fcb11c6e513a")
@@ -1813,7 +1813,7 @@
 				)
 			)
 		)
-		(property "Value" "WL-OCPT_SERIES_827"
+		(property "Value" "140827181010"
 			(at 0 7.365 0)
 			(layer "F.Fab")
 			(uuid "476eda8c-5cc3-4d4a-995a-71e1f237fb23")
@@ -2758,7 +2758,7 @@
 				)
 			)
 		)
-		(property "Value" "WL-OCPT_SERIES_827"
+		(property "Value" "140827181010"
 			(at 0 7.365 0)
 			(layer "F.Fab")
 			(uuid "d22062bf-805e-4a60-864f-7bb1aad9f799")
